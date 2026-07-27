@@ -1,8 +1,8 @@
 # Roguelike Work Graph and evolving MOB
 
-Status: discussion synthesis and architecture direction. This document extends
-the accepted single-Wayfinder control plane, but does not yet replace its
-persisted schema or constitute an implementation specification.
+Status: detailed design rationale consolidated into
+[`asterflow-blueprint.md`](asterflow-blueprint.md). This document remains the
+source discussion synthesis for the dynamic-map and evolving-MOB direction.
 
 Date: 2026-07-27
 

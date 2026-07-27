@@ -1,7 +1,9 @@
 # Wayfinder control plane
 
-Status: conceptual architecture baseline. No target runtime implementation has
-been built.
+Status: earlier conceptual baseline. The single-control-plane decision remains
+accepted, while the Work Item lifecycle, Solver Outcome, and MOB sections are
+refined by [`asterflow-blueprint.md`](asterflow-blueprint.md). No target
+runtime implementation has been built.
 
 ## 1. Summary
 

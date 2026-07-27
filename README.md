@@ -7,17 +7,21 @@ small, observable agent harness that combines:
 - Matt Pocock Skills' composable engineering workflows;
 - MyOutBrain's project-independent memory and reviewed reflection loop.
 
-The conceptual control-plane architecture has now been selected. Current
-foundation documents:
+The conceptual architecture has now been selected. Read it in this order:
 
 - [`CONTEXT.md`](CONTEXT.md) defines the canonical domain language.
 - [`docs/adr/0001-wayfinder-single-control-plane.md`](docs/adr/0001-wayfinder-single-control-plane.md)
   records the single-Wayfinder control-plane decision.
-- [`docs/architecture/wayfinder-control-plane.md`](docs/architecture/wayfinder-control-plane.md)
-  consolidates the architecture, invariants, and open questions.
+- [`docs/adr/0002-separate-map-exploration-and-learning.md`](docs/adr/0002-separate-map-exploration-and-learning.md)
+  separates the live map, Exploration, Episode, and learned routes.
+- [`docs/architecture/asterflow-blueprint.md`](docs/architecture/asterflow-blueprint.md)
+  is the current system-wide architecture.
+- [`docs/architecture/upstream-transformation-plan.md`](docs/architecture/upstream-transformation-plan.md)
+  maps the target Modules to concrete OMO-Slim, Matt Skills, and MyOutBrain
+  source seams.
 - [`docs/architecture/roguelike-work-graph-and-evolving-mob.md`](docs/architecture/roguelike-work-graph-and-evolving-mob.md)
-  captures the dynamic map, universal Exploration, evolving MOB, and
-  annealable route direction agreed during the next design session.
+  preserves the detailed rationale for dynamic maps, evolving MOB, and
+  annealable routes.
 
 Supporting research:
 
